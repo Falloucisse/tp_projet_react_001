@@ -1,0 +1,72 @@
+.cv {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cv-header {
+  text-align: center;
+  padding: 30px 20px;
+  margin-bottom: 30px;
+  background: rgb(31, 41, 55);
+  color: white;
+  border-radius: 10px;
+}
+
+.cv-header h1 {
+  margin: 0 0 10px;
+  font-size: 32px;
+}
+
+.cv-header p {
+  margin: 0;
+  color: rgb(209, 213, 219);
+}
+
+.cv section {
+  margin-bottom: 25px;
+  padding: 20px;
+  background: rgb(248, 250, 252);
+  border-left: 4px solid rgb(37, 99, 235);
+  border-radius: 6px;
+}
+
+.cv section h2 {
+  margin-top: 0;
+  margin-bottom: 18px;
+  color: rgb(31, 41, 55);
+}
+
+.cv section p {
+  margin: 10px 0;
+}
+
+.cv section ul {
+  padding-left: 22px;
+}
+
+.cv section li {
+  margin-bottom: 8px;
+}
+
+.cv article h3 {
+  color: rgb(37, 99, 235);
+}
+
+@media (max-width: 600px) {
+  .cv {
+    margin: 10px auto;
+    padding: 15px;
+  }
+
+  .cv-header h1 {
+    font-size: 25px;
+  }
+
+  .cv section {
+    padding: 15px;
+  }
+}
